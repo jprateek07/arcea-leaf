@@ -1,5 +1,7 @@
 import React from 'react';
 import img from './contactusImage/contact.jpg'
+import { Link } from 'react-router-dom';
+
 function Contact(props) {
     return (
         <div>
@@ -15,7 +17,7 @@ function Contact(props) {
                         <div class="col-md-12">
                             <h1>Contact Us Areca Nut Leaf Plates in Bangalore Karnataka </h1>
 
-                            <p><a href="#">Home »</a> contact us </p>
+                            <p><Link to="/">Home »</Link> contact us </p>
                         </div>
                     </div>
                 </div>
@@ -62,7 +64,7 @@ function Contact(props) {
             </div>
            </section>
            <div class="map">
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.6600749384!2d77.35073385808276!3d12.954517011116248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1579784989377!5m2!1sen!2sin" frameborder="0" allowfullscreen=""></iframe>   
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.6600749384!2d77.35073385808276!3d12.954517011116248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1579784989377!5m2!1sen!2sin" title="My location" frameborder="0" allowfullscreen=""></iframe>   
 
   </div>
 

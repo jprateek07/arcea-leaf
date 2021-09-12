@@ -1,6 +1,7 @@
 import React from 'react';
 import img from './itemsImage/round-plates/test.jpg'
 import bannerImg from './itemsImage/round-plates/areca-nut-leaf-plates-in-bangalore-india.jpg'
+import { Link } from 'react-router-dom';
 
 import LeftNav from './leftNav'
 function RoundPlate(props) {
@@ -19,7 +20,7 @@ function RoundPlate(props) {
                             </div>
 
                             <div class="col-md-4">
-                                <ul><li class="active"><a title="Home" href="index.html"> <i class="fa fa-home"></i> Home</a></li>
+                                <ul><li class="active"><Link to="/"> <i class="fa fa-home"></i> Home</Link></li>
                                     <li>Areca Leaf Round Plates</li>
                                 </ul>
                             </div>

@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Layout from './components/layout'
 import About from './components/about'
@@ -14,18 +14,16 @@ function App() {
   return (
     <>
       <Layout>
-        <Router>
-          <Switch>
-            <Route exact path='/' component={HomePage} />
-            <Route exact path='/about' component={About} />
-            <Route exact path='/round-plate' component={RoundPlate} />
-            <Route exact path='/square-plate' component={SquarePlate} />
-            <Route exact path='/heart-plate' component={HeartPlate} />
-            <Route exact path='/spoons' component={Spoons} />
-            <Route exact path='/gallery' component={Gallery} />
-            <Route exact path='/contact' component={Contact} />
-          </Switch>
-        </Router>
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/round-plate' component={RoundPlate} />
+          <Route exact path='/square-plate' component={SquarePlate} />
+          <Route exact path='/heart-plate' component={HeartPlate} />
+          <Route exact path='/spoons' component={Spoons} />
+          <Route exact path='/gallery' component={Gallery} />
+          <Route exact path='/contact' component={Contact} />
+        </Switch>
       </Layout>
     </>
   );

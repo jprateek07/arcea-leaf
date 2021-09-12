@@ -1,7 +1,7 @@
 import React from 'react';
 import bannerImg from './aboutus/areca-nut-leaf-plates-in-bangalore-india.jpg'
 import LeftNav from './leftNav'
-
+import { Link } from 'react-router-dom';
 function About(props) {
     return (
         <div className="container">
@@ -16,7 +16,7 @@ function About(props) {
                         <div class="col-md-9">
                             <h1>About SVK Areca Nut Leaf Plates in Bangalore Karnataka </h1>
 
-                            <p>Welcome to SVK <strong><a href="index.html">Arecanut Leaf Plates in Bangalore, Karnataka India</a></strong> which was a dream that came true in the year 2010 with the right work and efforts of Harish SV to bring a positive change to our society. The team at SVK has a fundamental belief to work towards conservation of our nature and saving the environment through plastic waste which is difficult to decompose. Today being one of the renowned players for <strong><a href="areca-nut-leaf-plates-in-bangalore-karnataka-india.html"> Areca nut Leaf Plates in Bangalore, Karnataka India region,</a></strong> we continuously keep on sending message to society regarding the importance of biodegradable Areca products, thus encouraging for a green India with healthy environment. Our company has been creating new landmarks in this industry by providing solution to all needs in this vertical.</p>
+                            <p>Welcome to SVK <strong><Link to="/">Arecanut Leaf Plates in Bangalore, Karnataka India</Link></strong> which was a dream that came true in the year 2010 with the right work and efforts of Harish SV to bring a positive change to our society. The team at SVK has a fundamental belief to work towards conservation of our nature and saving the environment through plastic waste which is difficult to decompose. Today being one of the renowned players for <strong><Link to="/about"> Areca nut Leaf Plates in Bangalore, Karnataka India region,</Link></strong> we continuously keep on sending message to society regarding the importance of biodegradable Areca products, thus encouraging for a green India with healthy environment. Our company has been creating new landmarks in this industry by providing solution to all needs in this vertical.</p>
 
                             <img src={bannerImg} class="img-responsive" alt="Areca Leaf Plates in Bangalore India" title="Areca Leaf Plates in Bangalore India" />
 

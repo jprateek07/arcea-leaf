@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer(props) {
     return (
@@ -35,10 +36,10 @@ function Footer(props) {
                                 <div class="footer-widget">
                                     <h3 class="fw-title">Our Eco-Products </h3>
                                     <ul>
-                                        <li><a href="/round-plate">Areca Leaf Round Plate</a></li>
-                                        <li><a href="/square-plate">Areca Leaf Square Plate</a></li>
-                                        <li><a href="/heart-plate">Areca Leaf Heart Plate</a></li>
-                                        <li><a href="/spoon">Areca Leaf Spoon</a></li>
+                                        <li><Link to="/round-plate">Areca Leaf Round Plate</Link></li>
+                                        <li><Link to="/square-plate">Areca Leaf Square Plate</Link></li>
+                                        <li><Link to="/heart-plate">Areca Leaf Heart Plate</Link></li>
+                                        <li><Link to="/spoon">Areca Leaf Spoon</Link></li>
                                     </ul>
                                 </div>
                             </div>

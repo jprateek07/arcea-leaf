@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header(props) {
     return (
@@ -17,7 +18,7 @@ function Header(props) {
                     <div class="row">
 
                         <div class="col-md-2">
-                            <a href="#"><img src="images/logo.png" class="img-fluid" alt="" title="" /></a>
+                            <Link to="/"><img src="images/logo.png" class="img-fluid" alt="" title="" /></Link>
                         </div>
 
                         <div class="col-md-8">
@@ -35,27 +36,27 @@ function Header(props) {
 
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="/"> <i class="fa fa-home" aria-hidden="true"> HOME</i></a></li>
-                                        <li><a href="/about">ABOUT US</a></li>
+                                        <li><Link to="/">  HOME</Link></li>
+                                        <li><Link to="/about">ABOUT US</Link></li>
 
                                         <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ARECA PLATES <b class="caret"></b></a>
+                                            <Link to="/round-plate" class="dropdown-toggle" data-toggle="dropdown">ARECA PLATES <b class="caret"></b></Link>
                                             <ul class="dropdown-menu">
-                                                <li><a href="/round-plate">Round Plate</a></li>
-                                                <li><a href="/square-plate">Square Plate</a></li>
-                                                <li><a href="/heart-plate">Heart Plates</a></li>
+                                                <li><Link to="/round-plate">Round Plate</Link></li>
+                                                <li><Link to="/square-plate">Square Plate</Link></li>
+                                                <li><Link to="/heart-plate">Heart Plates</Link></li>
                                             </ul>
                                         </li>
 
                                         <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ARECA SPOONS <b class="caret"></b></a>
+                                            <Link to="/spoons" class="dropdown-toggle" data-toggle="dropdown">ARECA SPOONS <b class="caret"></b></Link>
                                             <ul class="dropdown-menu">
-                                                <li><a href="/spoons">Spoons</a></li>
+                                                <li><Link to="/spoons">Spoons</Link></li>
                                             </ul>
                                         </li>
 
-                                        <li><a href="/gallery">GALLERY</a></li>
-                                        <li><a href="/contact">CONTACT US</a></li>
+                                        <li><Link to="/gallery">GALLERY</Link></li>
+                                        <li><Link to="/contact">CONTACT US</Link></li>
 
                                     </ul>
 
