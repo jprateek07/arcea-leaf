@@ -8,17 +8,17 @@ function LeftNav(props) {
                 <div class="service">
                     <h3>Areca Leaf Plates</h3> 
                     <div class="top-eco-list">
-                        <li><Link to ="/round-plate"> <i class="fa fa-leaf"></i> Areca Leaf Round Plate </Link></li>
-                        <li><Link to="/square-plate"> <i class="fa fa-leaf"></i> Areca Leaf Square Plate </Link></li>
-                        <li><Link to="/heart-plate"> <i class="fa fa-leaf"></i> Areca Leaf Heart Plates </Link></li>
-                        <li><Link to="/rectangle-plate"> <i class="fa fa-leaf"></i> Areca Leaf Rectangle Plates </Link></li>
-                        <li><Link to="/oval-plate"> <i class="fa fa-leaf"></i> Areca Leaf Oval Plates </Link></li>
+                        <li><a href ="/round-plate#round-plate"> <i class="fa fa-leaf"></i> Areca Leaf Round Plate </a></li>
+                        <li><a href="/square-plate#square-plate"> <i class="fa fa-leaf"></i> Areca Leaf Square Plate </a></li>
+                        <li><a href="/heart-plate#heart-plate"> <i class="fa fa-leaf"></i> Areca Leaf Heart Plates </a></li>
+                        <li><a href="/rectangle-plate#rectangle-plate"> <i class="fa fa-leaf"></i> Areca Leaf Rectangle Plates </a></li>
+                        <li><a href="/oval-plate#oval-plate"> <i class="fa fa-leaf"></i> Areca Leaf Oval Plates </a></li>
                     </div>
 
                     <h3>Areca Nut Leaf Spoon</h3> 
                     <div class="top-eco-list">  
-                        <li><Link to="/spoons"> <i class="fa fa-leaf"></i> Areca Leaf Spoon </Link></li>
-                        <li><Link to="/forks"> <i class="fa fa-leaf"></i> Areca Leaf Fork </Link></li>
+                        <li><a href="/spoons#spoons"> <i class="fa fa-leaf"></i> Areca Leaf Spoon </a></li>
+                        <li><a href="/forks#forks"> <i class="fa fa-leaf"></i> Areca Leaf Fork </a></li>
                    </div>
                     <h3><i class="fa fa-table"></i> Contact Us</h3> 
                     <div class="top-eco-list"> 

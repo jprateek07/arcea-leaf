@@ -32,7 +32,7 @@ function RectanglePlate(props) {
               </div>
             </div>
        </div> 
-            <section class="eco_service">
+            <section class="eco_service" id="rectangle-plate">
     <div class="container">
         <div class="row">
         <LeftNav />
