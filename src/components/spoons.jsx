@@ -1,4 +1,4 @@
-import React from 'react';
+import React,  { useRef, useEffect }  from 'react';
 import img1 from './itemsImage/spoons/spoon1.jpg'
 import img2 from './itemsImage/spoons/spoon2.jpg'
 import bannerImg from './itemsImage/spoons/areca-nut-leaf-plates-in-bangalore-india.jpg'
@@ -6,6 +6,16 @@ import LeftNav from './leftNav';
 import { Link } from 'react-router-dom';
 
 function RoundPlate(props) {
+  const myRef = useRef();
+
+  function scrollToComponent() {
+    if (window.location.hash === '#spoons') {
+      myRef.current.scrollIntoView();
+      myRef.current.focus();
+    }
+  }
+
+  useEffect( () => scrollToComponent(), [] )
     return (
         <div>
             <div class="banner">
@@ -29,11 +39,11 @@ function RoundPlate(props) {
               </div>
             </div>
        </div> 
-            <section class="eco_service" id="spoons">
+            <section class="eco_service" >
     <div class="container">
         <div class="row">
             <LeftNav />
-            <div class="col-md-9">
+            <div class="col-md-9" ref={myRef} id="spoons">
                 <div class="content_box">   
                     <h2> Areca Leaf Spoons</h2>   
                     <div class="row">

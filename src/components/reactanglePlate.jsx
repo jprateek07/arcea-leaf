@@ -1,4 +1,4 @@
-import React from 'react';
+import React,  { useRef, useEffect }  from 'react';
 import img1 from './itemsImage/rectangle-plates/rec1.jpg'
 import img2 from './itemsImage/rectangle-plates/rec2.jpg'
 import img3 from './itemsImage/rectangle-plates/rec3.jpg'
@@ -8,6 +8,16 @@ import LeftNav from './leftNav';
 import { Link } from 'react-router-dom';
 
 function RectanglePlate(props) {
+    const myRef = useRef();
+
+    function scrollToComponent() {
+      if (window.location.hash === '#rectangle-plate') {
+        myRef.current.scrollIntoView();
+        myRef.current.focus();
+      }
+    }
+  
+    useEffect( () => scrollToComponent(), [] )
     return (
         <div>
              <div class="banner">
@@ -32,11 +42,11 @@ function RectanglePlate(props) {
               </div>
             </div>
        </div> 
-            <section class="eco_service" id="rectangle-plate">
+            <section class="eco_service" >
     <div class="container">
         <div class="row">
         <LeftNav />
-            <div class="col-md-9">
+            <div class="col-md-9" id="rectangle-plate" ref={myRef}>
                 <div class="content_box">   
                     <h2> Areca Leaf Heart Plates</h2>   
                     <div class="row">
