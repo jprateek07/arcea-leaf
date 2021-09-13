@@ -31,7 +31,7 @@ function Header(props) {
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                    <Link class="navbar-brand" to="/">Ayesha International</Link>
+                                    <Link class="navbar-brand" to="/"><img src={logo} alt="" height={40} width={40}/></Link>
                                 </div>
 
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

@@ -38,7 +38,7 @@ function Certificate(props) {
                         <LeftNav />
                         <div class="col-md-9">
                             <div class="content_box certificate-section">
-                                <h2> Areca Leaf Round Plates</h2>
+                                <h2> Important certificates</h2>
                                 <div class="row">
                                     <div class="col-md-3 round">
                                         <div className="certificate-icon my-3 ">
@@ -58,6 +58,11 @@ function Certificate(props) {
                                         </div>
                                         <p>APEDA</p>
                                     </div>
+                                </div>
+                                <div className="certificate-content">
+                                    <p><i class="fas fa-check"></i> Certification from AGRICULTURAL AND PROCESSED FOOD PRODUCTS EXPORT DEVELOPMENT AUTHORITY</p>
+                                    <p><i class="fas fa-check"></i> Certificate of Importer-Exporter Code from Ministry of Commerce and Industry</p>
+                                    <p><i class="fas fa-check"></i> Certificate from Commercial Tax Department, Government of Tamil Nadu</p>
                                 </div>
                             </div>
                         </div>

@@ -610,7 +610,11 @@ margin-bottom: 20px;}
    min-height: 180px;
    max-height: 180px;
 }
+.certificate-section .round p{
+margin-top: 10px;
+}
 .certificate-icon{
+   margin-top: 10px !important;
    height: 80px;
    width: 80px;
    background-color: green;
@@ -623,8 +627,12 @@ margin-bottom: 20px;}
 .certificate-icon i{
    color: white;
 }
-
-
+.certificate-content{
+   margin-top: 10px;
+}
+.certificate-content p{
+   margin-left: 10px;
+}
  @media only screen and (max-width:420px) {
 .footerone {
     display: block !important;
