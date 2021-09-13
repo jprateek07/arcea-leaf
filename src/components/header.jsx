@@ -8,7 +8,7 @@ function Header(props) {
          <div class="container">
              <div class="row">
                 <div class="col-md-12">
-                   <p>Moving towards Eco Friendly World….. 100% Eco Friendly Products</p>
+                   {/* <p>Moving towards Eco Friendly World….. 100% Eco Friendly Products</p> */}
                    </div>
                  </div>
               </div>
