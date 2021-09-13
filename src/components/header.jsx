@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from './logos/smallLogo.jpg'
 function Header(props) {
     return (
         <div>
@@ -18,7 +18,7 @@ function Header(props) {
                     <div class="row">
 
                         <div class="col-md-2">
-                            <Link to="/"><img src="images/logo.png" class="img-fluid" alt="" title="" /></Link>
+                            {/* <Link to="/"><img src="images/logo.png" class="img-fluid" alt="" title="" /></Link> */}
                         </div>
 
                         <div class="col-md-8">
@@ -31,10 +31,12 @@ function Header(props) {
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-
+                                    <Link class="navbar-brand" to="/">Ayesha International</Link>
                                 </div>
 
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <div class="navbar-header">
+    </div>
                                     <ul class="nav navbar-nav">
                                         <li><Link to="/">  HOME</Link></li>
                                         <li><Link to="/about">ABOUT US</Link></li>
@@ -45,6 +47,8 @@ function Header(props) {
                                                 <li><Link to="/round-plate">Round Plate</Link></li>
                                                 <li><Link to="/square-plate">Square Plate</Link></li>
                                                 <li><Link to="/heart-plate">Heart Plates</Link></li>
+                                                <li><Link to="/rectangle-plate">Rectangle Plates</Link></li>
+                                                <li><Link to="/oval-plate">Oval Plates</Link></li>
                                             </ul>
                                         </li>
 
@@ -52,6 +56,7 @@ function Header(props) {
                                             <Link to="/spoons" class="dropdown-toggle" data-toggle="dropdown">ARECA SPOONS <b class="caret"></b></Link>
                                             <ul class="dropdown-menu">
                                                 <li><Link to="/spoons">Spoons</Link></li>
+                                                <li><Link to="/forks">Forks</Link></li>
                                             </ul>
                                         </li>
 

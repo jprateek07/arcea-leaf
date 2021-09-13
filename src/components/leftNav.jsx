@@ -3,19 +3,22 @@ import { Link } from 'react-router-dom';
 
 function LeftNav(props) {
     return (
-        <div>
+        <>
             <div class="col-md-3">
                 <div class="service">
-                    <h3>Areca Nut Leaf Plates</h3> 
+                    <h3>Areca Leaf Plates</h3> 
                     <div class="top-eco-list">
                         <li><Link to ="/round-plate"> <i class="fa fa-leaf"></i> Areca Leaf Round Plate </Link></li>
                         <li><Link to="/square-plate"> <i class="fa fa-leaf"></i> Areca Leaf Square Plate </Link></li>
                         <li><Link to="/heart-plate"> <i class="fa fa-leaf"></i> Areca Leaf Heart Plates </Link></li>
+                        <li><Link to="/rectangle-plate"> <i class="fa fa-leaf"></i> Areca Leaf Rectangle Plates </Link></li>
+                        <li><Link to="/oval-plate"> <i class="fa fa-leaf"></i> Areca Leaf Oval Plates </Link></li>
                     </div>
 
                     <h3>Areca Nut Leaf Spoon</h3> 
                     <div class="top-eco-list">  
                         <li><Link to="/spoons"> <i class="fa fa-leaf"></i> Areca Leaf Spoon </Link></li>
+                        <li><Link to="/forks"> <i class="fa fa-leaf"></i> Areca Leaf Fork </Link></li>
                    </div>
                     <h3><i class="fa fa-table"></i> Contact Us</h3> 
                     <div class="top-eco-list"> 
@@ -24,7 +27,7 @@ function LeftNav(props) {
                     </div>
                 </div>  
             </div> 
-        </div>
+        </>
     );
 }
 

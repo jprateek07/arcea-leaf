@@ -1,11 +1,13 @@
 import React from 'react';
-import img1 from './itemsImage/heart-plates/heart1.jpg'
-import img2 from './itemsImage/heart-plates/heart2.jpg'
+import img1 from './itemsImage/oval-plates/oval1.jpg'
+import img2 from './itemsImage/oval-plates/oval2.jpg'
+import img3 from './itemsImage/oval-plates/oval3.jpg'
+import img4 from './itemsImage/oval-plates/oval4.jpg'
 import bannerImg from './itemsImage/heart-plates/areca-nut-leaf-plates-in-bangalore-india.jpg'
 import LeftNav from './leftNav';
 import { Link } from 'react-router-dom';
 
-function RoundPlate(props) {
+function OvalPlate(props) {
     return (
         <div>
              <div class="banner">
@@ -22,7 +24,7 @@ function RoundPlate(props) {
     
              <div class="col-md-4">
                 <ul>
-                  {/* <li class="active"><Link to="/"> <i class="fa fa-home"></i> Home</Link></li>
+                {/* <li class="active"><Link to="/"> <i class="fa fa-home"></i> Home</Link></li>
                 <li>Areca Leaf Heart Plates</li> */}
               </ul>
           </div>
@@ -40,13 +42,25 @@ function RoundPlate(props) {
                     <div class="row">
                         <div class="col-md-5 round">
                           <img src={img1} class="img-responsive" alt="Areca Leaf 6 Inch Round Plate" title="Areca Leaf 6 Inch Round Plate"/>
-                          <p>10cm Heart Plate<br/>Pack of 10 & 25</p>
+                          <p>Oval Dish 17x 32cm<br/>Pack of 10 & 25</p>
                         </div>
                         
                         <div class="col-md-5 round">
                           <img src={img2} class="img-responsive" alt="Areca Leaf 8 Inch Round Plate" title="Areca Leaf 8 Inch Round Plate"/>
-                          <p>16cm Heart Dish<br/>Pack of 10 & 25</p>
-                        </div>                        
+                          <p>Oval Double Dish 16x26cm<br/>Pack of 10 & 25</p>
+                        </div>
+
+
+                         <div class="col-md-5 round">
+                          <img src={img3} class="img-responsive" alt="Areca Leaf 10 Inch Round Plate" title="Areca Leaf 10 Inch Round Plate"/>
+                          <p>Oval Dish 12x17cm<br/>Pack of 10 & 25</p>
+                        </div>
+
+                         <div class="col-md-5 round">
+                          <img src={img4} class="img-responsive" alt="Areca Leaf 12 Inch Round Plate" title="Areca Leaf 12 Inch Round Plate"/>
+                          <p>20x13cm Oval Plate<br/>Pack of 10 & 25</p>
+                        </div>
+                        
                     </div>
                 </div>
             </div> 
@@ -58,4 +72,4 @@ function RoundPlate(props) {
     );
 }
 
-export default RoundPlate;
+export default OvalPlate;

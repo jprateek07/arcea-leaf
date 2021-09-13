@@ -1,11 +1,10 @@
 import React from 'react';
-import img1 from './itemsImage/spoons/spoon1.jpg'
-import img2 from './itemsImage/spoons/spoon2.jpg'
+import img from './itemsImage/forks/fork1.jpg'
 import bannerImg from './itemsImage/spoons/areca-nut-leaf-plates-in-bangalore-india.jpg'
 import LeftNav from './leftNav';
 import { Link } from 'react-router-dom';
 
-function RoundPlate(props) {
+function Fork(props) {
     return (
         <div>
             <div class="banner">
@@ -16,13 +15,13 @@ function RoundPlate(props) {
                    <div class="row">
     
                 <div class="col-md-8">
-                  {/* <h1>Areca Leaf Spoon in india India</h1> */}
+                  {/* <h1>Areca Leaf Fork in india India</h1> */}
                 </div>
     
              <div class="col-md-4">
                 <ul>
                   {/* <li class="active"><Link to="/"> <i class="fa fa-home"></i> Home</Link></li>
-                <li>Areca Leaf Spoon</li> */}
+                <li>Areca Leaf Fork</li> */}
               </ul>
           </div>
      
@@ -38,13 +37,8 @@ function RoundPlate(props) {
                     <h2> Areca Leaf Spoons</h2>   
                     <div class="row">
                         <div class="col-md-5 round">
-                          <img src={img1} class="img-responsive" alt="Areca Leaf 6 Inch Round Plate" title="Areca Leaf 6 Inch Round Plate"/>
-                          <p>Spoon<br/>16 cm Pack of 100</p>
-                        </div>
-                        
-                        <div class="col-md-5 round">
-                          <img src={img2} class="img-responsive" alt="Areca Leaf 8 Inch Round Plate" title="Areca Leaf 8 Inch Round Plate"/>
-                          <p>Tea Spoon<br/>11 cm Pack of 100</p>
+                          <img src={img} class="img-responsive" alt="Areca Leaf 6 Inch Round Plate" title="Areca Leaf 6 Inch Round Plate"/>
+                          <p>Cutlery Fork<br/>16 cm Pack of 25</p>
                         </div>                        
                     </div>
                 </div>
@@ -57,4 +51,4 @@ function RoundPlate(props) {
     );
 }
 
-export default RoundPlate;
+export default Fork;
