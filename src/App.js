@@ -13,6 +13,8 @@ import Spoons from './components/spoons'
 import Gallery from './components/gallery'
 import Contact from './components/contact'
 import HomePage from './components/homePage'
+import Certificate from './components/certificate'
+
 function App() {
   return (
     <>
@@ -29,6 +31,7 @@ function App() {
           <Route exact path='/forks' component={Fork} />
           <Route exact path='/gallery' component={Gallery} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/certificate' component={Certificate} />
         </Switch>
       </Layout>
     </>

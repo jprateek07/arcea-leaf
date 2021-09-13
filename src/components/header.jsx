@@ -71,7 +71,7 @@ function Header(props) {
 
 
                         <div class="col-md-2 call_us">
-                            <p><i class="fa fa-phone" aria-hidden="true"> </i> <a href="tel:+91 9494746272">+91 9494746272</a></p>
+                            {/* <p><i class="fa fa-phone" aria-hidden="true"> </i> <a href="tel:+91 9494746272">+91 9494746272</a></p> */}
                         </div>
 
                     </div>

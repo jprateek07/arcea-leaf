@@ -23,12 +23,7 @@ function Footer(props) {
                             <div class="footer-widget">
                                 <h3 class="fw-title">Important Links</h3>
                                 <ul>
-                                    <li><a href="#">Certificate Link here </a></li>
-                                    <li><a href="#">Certificate Link here </a></li>
-                                    <li><a href="#">Certificate Link here </a></li>
-                                    <li><a href="#">Certificate Link here </a></li>
-                                    <li><a href="#">Certificate Link here </a></li>
-                                    <li><a href="#">Certificate Link here</a></li>
+                                    <li><a href="/certificate">Important Certificates </a></li>
                                 </ul>
                             </div>
                         </div>
