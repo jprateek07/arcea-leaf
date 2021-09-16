@@ -181,7 +181,7 @@ position: relative;}
    list-style: none;
    display: inline-block;}
   
-.footer-widget ul li {list-style: url('./components//itemsImage/general/leaf.png');} 
+.footer-widget ul li {list-style: url('./components/itemsImage/general/leaf.png');} 
  
 .footer-widget ul li a {
    display: block;
