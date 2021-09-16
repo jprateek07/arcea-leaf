@@ -8,6 +8,10 @@ import img6 from './itemsImage/square-plates/sq2.jpg'
 import img7 from './itemsImage/oval-plates/oval1.jpg'
 import img8 from './itemsImage/oval-plates/oval2.jpg'
 import img9 from './itemsImage/spoons/spoon1.jpg'
+import img10 from './itemsImage/round-plates/round1.jpg'
+import img11 from './itemsImage/forks/fork1.jpg'
+
+
 import img from './home-page-image/homepage.jpg'
 import { Link } from 'react-router-dom';
 
@@ -33,7 +37,7 @@ function HomePage(props) {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2>Areca Nut Leaf Plates Products</h2>
+                            <h2>Areca Leaf Products</h2>
                         </div>
                     </div>
                 </div>
@@ -58,13 +62,13 @@ function HomePage(props) {
                     <div class="col-md-4 col-sm-6">
                         <div class="single">
                             <div class="box">
-                                <img src={img2} alt="" />
+                                <img src={img10} alt="" />
                                 {/* <div class="box-content">
                                     <h3 class="title">Ayesha International Areca Leaf</h3>
                                     <span class="post"><Link to="/"> <i class="fa fa-forward"></i> Read More</Link></span>
                                 </div> */}
                             </div>
-                            <Link to="/heart-plate"> <p> 16cm Heart Dish</p></Link>
+                            <Link to="/round-plate"> <p> Shallow Round Plate 18.5cm</p></Link>
                         </div>
                     </div>
 
@@ -111,7 +115,7 @@ function HomePage(props) {
                                     <span class="post"><Link to="/"> <i class="fa fa-forward"></i> Read More</Link></span>
                                 </div> */}
                             </div>
-                            <Link to="/square-plate"> <p> Standard Square Plate </p></Link>
+                            <Link to="/square-plate"> <p> Standard Square Plate 25×2.7cm  </p></Link>
                         </div>
                     </div>
 
@@ -124,7 +128,7 @@ function HomePage(props) {
                                     <span class="post"><Link to="/"> <i class="fa fa-forward"></i> Read More</Link></span>
                                 </div> */}
                             </div>
-                            <Link to="/square-plate"> <p> Flat Square Plate </p></Link>
+                            <Link to="/square-plate"> <p> Flat Square Plate 20x 1.5cm </p></Link>
                         </div>
                     </div>
 
@@ -150,13 +154,13 @@ function HomePage(props) {
                     <div class="col-md-4 col-sm-6">
                         <div class="single">
                             <div class="box">
-                                <img src={img8} alt="" />
+                                <img src={img11} alt="" />
                                 {/* <div class="box-content">
                                     <h3 class="title">Ayesha International Areca Leaf</h3>
                                     <span class="post"><Link to="/"> <i class="fa fa-forward"></i> Read More</Link></span>
                                 </div> */}
                             </div>
-                            <Link to="/oval-plate"> <p> Oval Double Dish 16x26cm </p></Link>
+                            <Link to="/forks"> <p> Cutlery Fork </p></Link>
                         </div>
                     </div>
 

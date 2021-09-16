@@ -233,7 +233,11 @@ position: relative;}
 .footer-buttom {
    margin-top: 10px;
    background: #010107;}
-   
+.footer-widget .highlights li{
+   font-size: 15px;
+   color: #fff;
+   margin-bottom: 15px;
+}
    
   .copyright {
    color: #646470;

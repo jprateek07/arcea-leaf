@@ -9,8 +9,16 @@ function Footer(props) {
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
                             <div class="footer-widget about-widget">
-                                <img src={logo} alt="Svh Areca Leaf Logo" title="Svh Areca Leaf Logo" />
-                                {/* <p>Welcome to Ayesha International Ayesha International Leaf Plates  which was a dream that came true in the year 2010 with the right work and efforts of Harish SV to bring a positive change to our society.</p> */}
+                            <h3 class="fw-title">Highlights</h3>
+                                <ul className="highlights">
+                                    <li>100% Biodegradable and Compostable</li>
+                                    <li>Microwave and Refrigeration Safe</li>
+                                    <li>No chemicals Used in the Process.</li>
+                                    <li>Eco-Friendly Disposable</li>
+                                    <li>Strong and Lightweight.</li>
+                                    <li>Can be used for Solid and Liquid Foods.</li>
+                                    <li>Suitable for all Occasions.</li>
+                                </ul>                                
                                 <div class="footer-social">
                                     <a href=""><i class="fab fa-facebook"></i></a>
                                     <a href=""><i class="fab fa-twitter"></i></a>
