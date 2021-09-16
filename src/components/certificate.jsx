@@ -60,9 +60,9 @@ function Certificate(props) {
                                     </div>
                                 </div>
                                 <div className="certificate-content">
-                                    <p><i class="fas fa-check"></i> Certification from AGRICULTURAL AND PROCESSED FOOD PRODUCTS EXPORT DEVELOPMENT AUTHORITY</p>
-                                    <p><i class="fas fa-check"></i> Certificate of Importer-Exporter Code from Ministry of Commerce and Industry</p>
-                                    <p><i class="fas fa-check"></i> Certificate from Commercial Tax Department, Government of Tamil Nadu</p>
+                                    <p><i class="fas fa-check"></i> G.S.T certificate</p>
+                                    <p><i class="fas fa-check"></i>Certificate of Importer-Exporter Code (IEC)</p>
+                                    <p><i class="fas fa-check"></i> APEDA</p>
                                 </div>
                             </div>
                         </div>
