@@ -754,6 +754,8 @@ line-height: 20px;}
    margin-bottom: 30px;
    transition: 0.2s ease-in-out;
    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+   max-height: 170px;
+   min-height: 170px;
 }
 
 
