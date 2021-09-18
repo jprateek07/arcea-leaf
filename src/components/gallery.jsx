@@ -33,126 +33,126 @@ function Gallery(props) {
                     <div class="row">
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img1} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img1} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img2} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img2} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img3} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img3} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img4} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img4} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img5} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img5} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img6} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img6} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img7} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img7} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img8} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img8} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img9} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img9} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img10} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img10} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img11} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
-                            </div>
-                        </div>
-
-
-                        <div class="col-sm-3 col-md-3">
-                            <div class="lightbox">
-                                <img src={img12} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3 col-md-3">
-                            <div class="lightbox">
-                                <img src={img13} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img11} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img14} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img12} alt="Round Plate 12 Inch"  alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3 col-md-3">
+                            <div class="lightbox">
+                                <img src={img13} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img15} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img14} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img16} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img15} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img17} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img16} alt="Round Plate 12 Inch"  alt=""/>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-3 col-md-3">
+                            <div class="lightbox">
+                                <img src={img17} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img18} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img18} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img19} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img19} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-md-3">
                             <div class="lightbox">
-                                <img src={img20} alt="Round Plate 12 Inch" title="Round Plate 12 Inch" alt=""/>
+                                <img src={img20} alt="Round Plate 12 Inch"  alt=""/>
                             </div>
                         </div>
                     </div>

@@ -16,8 +16,15 @@ code {
 
 header { background-color:#e6e6e6;}
 header p {text-align:center; margin-top:5px; font-size:16px;}
-
-
+.navbar-header{
+   background-color: white;
+}
+.navbar-brand img {
+   margin: -15px;
+   padding-bottom: 13px;
+   height: 63px;
+   width: 100px;
+}
 .home {margin-top:20px; }
 
 .navbar-default .navbar-nav > li.dropdown:hover > a, 

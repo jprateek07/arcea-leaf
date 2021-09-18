@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from './logos/smallLogo.jpg'
+import logo from './logos/headerLogo.jpg'
 function Header(props) {
     return (
         <div>
@@ -31,7 +31,7 @@ function Header(props) {
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                    <Link class="navbar-brand" to="/"><img src={logo} alt="" height={40} width={40}/></Link>
+                                    <Link class="navbar-brand" to="/"><img src={logo} alt="logo" /></Link>
                                 </div>
 
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
