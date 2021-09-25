@@ -20,6 +20,11 @@ function LeftNav(props) {
                         <li><Link to="/spoons#spoons"> <i class="fa fa-leaf"></i> Areca Leaf Spoon </Link></li>
                         <li><Link to="/forks#fork"> <i class="fa fa-leaf"></i> Areca Leaf Fork </Link></li>
                    </div>
+                   <h3>Paper Product</h3> 
+                    <div class="top-eco-list">  
+                        <li><Link to="/duplex#duplex"> <i class="fa fa-leaf"></i> Duplex </Link></li>
+                        <li><Link to="/mg-craft#mgcraft"> <i class="fa fa-leaf"></i> MG Craft </Link></li>
+                   </div>
                     <h3><i class="fa fa-table"></i> Contact Us</h3> 
                     <div class="top-eco-list"> 
                         <li><a href="tel:+4733378901"> <i class="fa fa-phone"></i> +91 9494746272 </a></li>

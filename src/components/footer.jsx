@@ -9,7 +9,7 @@ function Footer(props) {
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
                             <div class="footer-widget about-widget">
-                            <h3 class="fw-title">Highlights</h3>
+                            <h3 class="fw-title">Benefits of areca products</h3>
                                 <ul className="highlights">
                                     <li>100% Biodegradable and Compostable</li>
                                     <li>Microwave and Refrigeration Safe</li>
@@ -46,40 +46,6 @@ function Footer(props) {
                                     <li><Link to="/oval-plate">Areca Leaf Oval Plate</Link></li>
                                     <li><Link to="/spoons">Areca Leaf Spoon</Link></li>
                                     <li><Link to="/forks">Areca Leaf Fork</Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="footer-widget about-widget">
-                            <h3 class="fw-title">Our vision</h3>
-                                <ul className="highlights">
-                                    <li>To be the most successful and respected areca leaf products manufacturer in world wide</li>
-                                </ul>                                
-                                <div class="footer-social">
-                                    <a href=""><i class="fab fa-facebook"></i></a>
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="footer-widget">
-                                <h3 class="fw-title">Our mission</h3>
-                                <ul className="highlights">
-                                    <li>We strive to offer our customers the reasonable prices, world class quality and hygenic areca leaf products</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="footer-widget">
-                                <h3 class="fw-title">Our Quality Policy </h3>
-                                <ul className="highlights">
-                                    <li>Ayesha International are committed to produce world class quality arcea leaf products consistently with on time delivery</li>
                                 </ul>
                             </div>
                         </div>

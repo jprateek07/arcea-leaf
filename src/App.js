@@ -14,6 +14,8 @@ import Gallery from './components/gallery'
 import Contact from './components/contact'
 import HomePage from './components/homePage'
 import Certificate from './components/certificate'
+import MgCraft from './components/mgCraft'
+import Duplex from './components/duplex'
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
           <Route exact path='/gallery' component={Gallery} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/certificate' component={Certificate} />
+          <Route exact path='/mg-craft' component={MgCraft} />
+          <Route exact path='/duplex' component={Duplex} />
         </Switch>
       </Layout>
     </>

@@ -1,13 +1,23 @@
 import React from 'react';
 import img from './contactusImage/contact.jpg'
+import img1 from './contactusImage/contact1.jpg'
 import { Link } from 'react-router-dom';
 
 function Contact(props) {
     return (
         <div>
             <div class="contact_us">
-                <img src={img} class="img-responsive" alt="Areca Nut Leaf Plates Contact Us Bengaluru" title="Areca Nut Leaf Plates Contact Us Bengaluru" />
+                <div className="row">
+                    <div className="col-md-6">
+                <img src={img} class="img-responsive" alt="Areca Nut Leaf Plates Contact Us Bengaluru" title="Areca Nut Leaf Plates Contact Us Bengaluru" width='100%'/>
 
+                    </div>
+                    <div className="col-md-6">
+                <img src={img1} class="img-responsive" alt="Areca Nut Leaf Plates Contact Us Bengaluru" title="Areca Nut Leaf Plates Contact Us Bengaluru" width='100%'/>
+
+                    </div>
+                </div>
+                {/* <img src={img} class="img-responsive" alt="Areca Nut Leaf Plates Contact Us Bengaluru" title="Areca Nut Leaf Plates Contact Us Bengaluru" /> */}
             </div>
 
 

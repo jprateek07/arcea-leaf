@@ -56,13 +56,13 @@ function Certificate(props) {
                                         <div className="certificate-icon my-3">
                                         <i class="far fa-file-pdf fa-2x"></i>
                                         </div>
-                                        <p>APEDA</p>
+                                        <p>FIEO</p>
                                     </div>
                                 </div>
                                 <div className="certificate-content">
-                                    <p><i class="fas fa-check"></i> G.S.T certificate</p>
-                                    <p><i class="fas fa-check"></i>Certificate of Importer-Exporter Code (IEC)</p>
-                                    <p><i class="fas fa-check"></i> APEDA</p>
+                                    <p><i class="fas fa-check"></i>  G.S.T certificate</p>
+                                    <p><i class="fas fa-check"></i>  Certificate of Importer-Exporter Code (IEC)</p>
+                                    <p><i class="fas fa-check"></i>  Federation of Indian Export Organisations</p>
                                 </div>
                             </div>
                         </div>

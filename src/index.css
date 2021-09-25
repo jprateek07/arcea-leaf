@@ -302,7 +302,15 @@ position: relative;}
 
 /*about-us*/
 
-
+.certificate-section h4{
+   margin: 25px 10px;
+}
+.certificate-section h5{
+   padding: 20px;
+}
+.certificate-section img{
+   padding: 20px;
+}
 
 .heading-about h1 { background-color:
 #f9f9f9;

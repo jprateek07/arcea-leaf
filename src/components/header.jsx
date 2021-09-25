@@ -21,7 +21,7 @@ function Header(props) {
                             {/* <Link to="/"><img src="images/logo.png" class="img-fluid" alt="" title="" /></Link> */}
                         </div>
 
-                        <div class="col-md-8">
+                        <div class="col-md-9">
                             <nav class="navbar navbar-default" role="navigation">
 
                                 <div class="navbar-header">
@@ -60,9 +60,17 @@ function Header(props) {
                                             </ul>
                                         </li>
 
+                                        <li class="dropdown">
+                                            <Link to="/duplex" class="dropdown-toggle" data-toggle="dropdown">PAPER PRODUCT <b class="caret"></b></Link>
+                                            <ul class="dropdown-menu">
+                                                <li><Link to="/duplex">Duplex</Link></li>
+                                                <li><Link to="/mg-craft">Mg Craft</Link></li>
+                                            </ul>
+                                        </li>
+
                                         <li><Link to="/gallery">GALLERY</Link></li>
                                         <li><Link to="/contact">CONTACT US</Link></li>
-
+                                        <li><Link to="/certificate">CERTIFICATES</Link></li>
                                     </ul>
 
                                 </div>
