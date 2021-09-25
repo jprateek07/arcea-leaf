@@ -16,6 +16,9 @@ import HomePage from './components/homePage'
 import Certificate from './components/certificate'
 import MgCraft from './components/mgCraft'
 import Duplex from './components/duplex'
+import RoundBowl from './components/roundBowl'
+import SquareBowl from './components/squareBowl'
+import HeartBowl from './components/heartBowl'
 
 function App() {
   return (
@@ -36,6 +39,9 @@ function App() {
           <Route exact path='/certificate' component={Certificate} />
           <Route exact path='/mg-craft' component={MgCraft} />
           <Route exact path='/duplex' component={Duplex} />
+          <Route exact path='/round-bowl' component={RoundBowl} />
+          <Route exact path='/square-bowl' component={SquareBowl} />
+          <Route exact path='/heart-shaped-bowl' component={HeartBowl} />
         </Switch>
       </Layout>
     </>

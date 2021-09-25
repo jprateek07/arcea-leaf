@@ -541,8 +541,17 @@ margin-left:40px;}
  font-size:16px; 
  background-color:#0b0b25; 
  color:#FFF; padding: 8px;}
-
-
+ #round-bowl .round p,#square-bowl .round p{
+    width: 100%;
+ }
+#round-bowl .round, #square-bowl .round 
+{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 290px;
+}
 
 .card-container {
 width: 400px;

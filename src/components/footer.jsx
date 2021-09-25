@@ -29,7 +29,7 @@ function Footer(props) {
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="footer-widget">
-                                <h3 class="fw-title">Important Links</h3>
+                                <h3 class="fw-title">Certificates</h3>
                                 <ul>
                                     <li><a href="/certificate">Important Certificates </a></li>
                                 </ul>
@@ -55,7 +55,7 @@ function Footer(props) {
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 order-2 order-lg-1 p-0">
-                                <div class="copyright">© Copyrights SVH Eco-Products.com 2021. All rights reserved. </div>
+                                <div class="copyright">© Copyrights Ayesha International 2021. All rights reserved. </div>
                             </div>
                         </div>
                     </div>

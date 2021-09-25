@@ -21,7 +21,7 @@ function Header(props) {
                             {/* <Link to="/"><img src="images/logo.png" class="img-fluid" alt="" title="" /></Link> */}
                         </div>
 
-                        <div class="col-md-9">
+                        <div class="col-md-10">
                             <nav class="navbar navbar-default" role="navigation">
 
                                 <div class="navbar-header">
@@ -51,12 +51,19 @@ function Header(props) {
                                                 <li><Link to="/oval-plate">Oval Plates</Link></li>
                                             </ul>
                                         </li>
-
                                         <li class="dropdown">
-                                            <Link to="/spoons" class="dropdown-toggle" data-toggle="dropdown">ARECA SPOONS <b class="caret"></b></Link>
+                                            <Link to="/duplex" class="dropdown-toggle" data-toggle="dropdown">PAPER PRODUCT <b class="caret"></b></Link>
                                             <ul class="dropdown-menu">
-                                                <li><Link to="/spoons">Spoons</Link></li>
-                                                <li><Link to="/forks">Forks</Link></li>
+                                                <li><Link to="/duplex">Duplex</Link></li>
+                                                <li><Link to="/mg-craft">Mg Craft</Link></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <Link to="/round-bowl" class="dropdown-toggle" data-toggle="dropdown">ARECA BOWLS <b class="caret"></b></Link>
+                                            <ul class="dropdown-menu">
+                                                <li><Link to="/round-bowl">Round bowl</Link></li>
+                                                <li><Link to="/square-bowl">Square bowl</Link></li>
+                                                <li><Link to="/heart-shaped-bowl">Heart Shaped bowl</Link></li>
                                             </ul>
                                         </li>
 
